@@ -1,5 +1,6 @@
 <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-md sm:p-6 md:p-8">
-    <form class="space-y-4" action="#">
+    <form class="space-y-4" action="{{ route('users.store') }}" method="POST">
+        @csrf
         <div class="">
             <h5 class="text-xl font-medium text-gray-900">Sign up to our platform</h5>
             <p class="outfit-thin text-neutral-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsa ratione quisquam, modi vitae illum inventore quos accusamus.</p>
