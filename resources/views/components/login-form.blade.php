@@ -1,6 +1,10 @@
 <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-md sm:p-6 md:p-8">
-    <form class="space-y-6" action="#">
-        <h5 class="text-xl font-medium text-gray-900">Sign in to our platform</h5>
+    <form class="space-y-4" action="#">
+        <div class="">
+            <h5 class="text-xl font-medium text-gray-900">Sign in to our platform</h5>
+            <p class="outfit-thin text-neutral-600 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam provident consequatur similique eum fugit, in fugiat sint minus asperiores aliquid!</p>
+        </div>
         <div>
             <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your
                 email</label>
@@ -31,8 +35,8 @@
         <button type="submit"
             class="w-full text-white bg-blue-700 transition-all hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Login
             to your account</button>
-        <div class="text-sm font-medium text-gray-500">
-            Not registered? <a href="#" class="text-blue-700 transition-all hover:underline">Create
+        <div class="text-sm outfit-thin text-gray-500">
+            Not registered? <a href="/signup" class="outfit-regular text-blue-700 transition-all hover:underline">Create
                 account</a>
         </div>
     </form>

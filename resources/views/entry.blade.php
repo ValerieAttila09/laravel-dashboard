@@ -11,8 +11,8 @@
 
 <body class="outfit-thin h-full md:h-screen">
 
-    <div class="w-full h-full flex items-center justify-center">
-        <x-sign-up-form />
+    <div class="w-full h-full flex items-center justify-center bg-radial-[at_100%_100%] from-fuchsia-100 via-white to-sky-100">
+        <x-login-form />
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
