@@ -12,7 +12,7 @@
 <body class="outfit-thin h-full md:h-screen">
 
     <div class="w-full h-full flex items-center justify-center">
-        <x-login-form />
+        <x-sign-up-form />
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
