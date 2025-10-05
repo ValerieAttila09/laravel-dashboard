@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+
 
 Route::get('/', function () {
     return view('welcome', ['page' => 'Login']);
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard', ['page' => 'Dashboard']);
-});
+Route::get('/dashboard', [UserController::class, 'index']);
